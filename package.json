@@ -1,0 +1,34 @@
+{
+  "name": "route-suggestion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docker": "docker build -t route-suggestion . && docker run -it route-suggestion",
+    "test": "mocha ./test/"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bassant147/route-suggestion.git"
+  },
+  "engine": {
+    "node": ">=12.0.0",
+    "npm": ">=6.0.0"
+  },
+  "contributers": [
+    {
+      "name": "Bassant Abdelgawad",
+      "email": "bassant.agawad@gmail.com"
+    }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bassant147/route-suggestion/issues"
+  },
+  "homepage": "https://github.com/bassant147/route-suggestion#readme"
+}
