@@ -6,10 +6,7 @@
   "scripts": {
     "docker": "docker build -t route-suggestion . && docker run -it route-suggestion"
   },
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^8.0.0"
-  },
+  "devDependencies": {},
   "dependencies": {},
   "repository": {
     "type": "git",
