@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "docker": "docker build -t route-suggestion . && docker run -it route-suggestion",
-    "test": "mocha ./test/"
+    "docker": "docker build -t route-suggestion . && docker run -it route-suggestion"
   },
   "devDependencies": {
     "chai": "^4.2.0",
